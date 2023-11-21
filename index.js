@@ -11,10 +11,15 @@ const fs = require('fs');
 init();
 
 // Create a function to write README file
-function writeToFile(fileName, data) {
+// function writeToFile(fileName, data) {
 
+//   const markdownContent = generateMarkdown(answers)
 
-}
+//   fs.writeFile('README.md', markdownContent, (err) =>
+//   err ? console.log(err) : console.log('Successfully created README file!')
+//   );
+
+// }
 
 
 // TODO: Create a function to initialize app
@@ -63,16 +68,25 @@ function init() {
 
   ])
   .then((answers) => {
-    // Use user feedback for... whatever!!
+    // Use user feedback to generate README.md file
+
     console.log(generateMarkdown(answers));
+
+    const markdownContent = generateMarkdown(answers)
+
+    fs.writeFile('README.md', markdownContent, (err) =>
+    err ? console.log(err) : console.log('Successfully created README file!')
+    );
+
   })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
-  });
+  
+  // .catch((error) => {
+  //   if (error.isTtyError) {
+  //     // Prompt couldn't be rendered in the current environment
+  //   } else {
+  //     // Something else went wrong
+  //   }
+  // });
 
 }
 
