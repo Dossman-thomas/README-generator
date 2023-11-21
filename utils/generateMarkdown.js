@@ -26,9 +26,7 @@ ${data.description}
 
 1. [Usage](#usage)
 2. [Screenshots](#screenshots)
-3. [Collaborators](#collaborators)
-4. [Technologies](#technologies)
-5. [Badges](#badges)
+3. [Technologies](#technologies)
 
 ## Usage
 
@@ -38,8 +36,15 @@ ${data.usage}
 
 ## Screenshots
 
+![Screenshot1](${data.screenshot1})
+
+![Screenshot2](${data.screenshot1})
+
 ## Technologies
 
+This project is built using the following technologies:
+
+${data.technologies}
 
 `;
 }

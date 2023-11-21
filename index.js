@@ -7,14 +7,10 @@ const inquirer = require('inquirer');
 // Import file system
 const fs = require('fs');
 
+// Function call to initialize app
+init();
 
-// TODO: Create an array of questions for user input
-// const questions = [
-
-// ];
-
-
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
 
 
@@ -53,6 +49,18 @@ function init() {
       message: 'Write a detailed description of how to use your application.',
     },
 
+    {
+      type: 'input',
+      name: 'screenshot1',
+      message: 'Write the exact file path for the first screenshot of your application.',
+    },
+
+    {
+      type: 'input',
+      name: 'screenshot2',
+      message: 'Write the exact file path for the second screenshot of your application.',
+    },
+
   ])
   .then((answers) => {
     // Use user feedback for... whatever!!
@@ -68,6 +76,3 @@ function init() {
 
 }
 
-
-// Function call to initialize app
-init();
