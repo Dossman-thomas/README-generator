@@ -1,28 +1,52 @@
-# Markdown gen
+# README Generator
 
-an app that generates markdown   
+
+
+
+
+## Description
+
+generates readmes   
 
 ## Table of Contents
 
-1. [Usage](#usage)
-2. [Screenshots](#screenshots)
-3. [Technologies](#technologies)
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+
+no
 
 ## Usage
 
-visit: www.github.com
+visit: no
 
-answer questions
+nah
 
-## Screenshots
+## Contributing
 
-![Screenshot1](./assets/ss1)
+Thank you for considering contributing to this project! I welcome your contributions.
 
-![Screenshot2](./assets/ss1)
+## How to Contribute
 
-## Technologies
+no thanks
 
-This project is built using the following technologies:
+## Tests
 
-undefined
+This project includes a test suite to ensure its functionality. Before running the tests, make sure to install any necessary dependencies.
+
+To test this project, follow these steps: 
+
+nah
+
+## Questions
+
+[Find me on Github!](github.com/you)
+
+If you have any further questions, feel free to reach me at know@gmail.com
 
