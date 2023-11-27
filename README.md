@@ -63,7 +63,7 @@ Thank you for considering contributing to this project! I gladly welcome all con
 
 ## Questions
 
-[Find me on Github!](github.com/dossman-thomas)
+[Find me on Github!](https://github.com/Dossman-thomas)
 
 If you have any further questions, feel free to reach me via tdossman.development@gmail.com
 
